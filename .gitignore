@@ -1,0 +1,15 @@
+node_modules/
+out/
+release/
+*.tsbuildinfo
+
+# contém senhas em texto puro e as sessões (cookies) das contas
+data/
+.backup-release-data/
+backup-release-data/
+
+# segredos e variáveis locais
+.env
+.env.*
+*.pem
+*.key

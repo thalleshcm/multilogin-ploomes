@@ -1,0 +1,15 @@
+appId: br.com.ploomes.multilogin
+productName: Multilogin Ploomes
+directories:
+  output: release
+files:
+  - out/**/*
+  - resources/**/*
+  - package.json
+win:
+  icon: resources/icon.ico
+  target:
+    - target: portable
+      arch: x64
+portable:
+  artifactName: Multilogin-Ploomes-${version}.exe
